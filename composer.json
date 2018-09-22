@@ -1,0 +1,23 @@
+{
+  "name": "soroush-app/bot-php-sdk",
+  "description": "Soroush Messenger Bot Wrapper for PHP",
+  "require": {
+    "php": ">=5.6",
+    "ext-curl": "",
+    "ext-json": "",
+    "guzzlehttp/guzzle": "~6.3"
+  },
+  "authors": [
+    {
+      "name": "Amir Gholami",
+      "email": "amirgh.php+soroushbotphpsdk@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Soroush\\": "src/"
+    }
+  }
+}
