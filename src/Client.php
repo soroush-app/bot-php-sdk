@@ -58,7 +58,7 @@ class Client
     private function getGetMessageURL()
     {
         if (empty($this->_token)) throw new \Exception("Invalid Bot Token", 11);
-        return $this->getToken() . $this->_getMessageURL;
+        return 'v2/'.$this->getToken() . $this->_getMessageURL;
     }
 
     private function getSendMessageURL()
