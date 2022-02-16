@@ -9,7 +9,7 @@ class Client
     const RETRY_DEFAULT_MS = 3000;
     const END_OF_MESSAGE = "/\n\n/";
 
-    private $_baseDomain = 'https://bot.sapp.ir/';
+    private $_baseDomain = 'https://bot.splus.ir/';
     private $_getMessageURL = '/getMessage';
     private $_uploadFileURL = '/uploadFile';
     private $_downLoadFileURL = '/downloadFile/';
